@@ -61,7 +61,7 @@ jobs:
   test-windows:
     name: Test on Windows with MSVC
     runs-on: windows-latest
-    
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
