@@ -136,7 +136,7 @@ ctest
 
 ## Requirements
 
-- C++23 compiler (GCC 13+ or Clang 18+)
+- C++23 compiler (GCC 14+ or Clang 19+)
 - CMake 3.14+
 
 ## Wire Protocol

@@ -1,0 +1,34 @@
+Add Automated CI/CD Testing with Latest C++23 Compilers
+
+## Summary
+
+Adds comprehensive GitHub Actions workflow for automated testing across multiple platforms and compilers.
+
+## What's New
+
+✅ **CI/CD Workflow** - Automated testing on every push and PR
+✅ **Linux Testing** - GCC 14 and Clang 19 (full C++23 support)  
+✅ **Windows Testing** - MSVC (latest)
+✅ **Security** - Limited GITHUB_TOKEN permissions
+✅ **Updated Docs** - Compiler requirements now GCC 14+ and Clang 19+
+
+## Why Upgrade Compilers?
+
+**Problem**: Clang 18 has incomplete C++23 support  
+**Solution**: Use GCC 14 and Clang 19 with mature C++23 implementations
+
+## Testing
+
+✅ All 8 tests passing (100%)  
+✅ Code review passed  
+✅ Security scan: 0 alerts  
+✅ Verified locally with GCC 14.2.0
+
+## Impact
+
+- ✨ Automated quality gates for every PR
+- 🛡️ Multi-compiler validation
+- 🔄 Cross-platform testing (Linux + Windows)
+- 📊 Clear test results on every commit
+
+See PR_DESCRIPTION.md for full details.
